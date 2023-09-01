@@ -13,7 +13,7 @@ namespace BookApp.Data
         public string Country { get; set; }
         public int Age { get; set; }
 
-        public ICollection<Book> Books { get; set; }
+        public virtual ICollection<Book> Books { get; set; }
     }
 
 }

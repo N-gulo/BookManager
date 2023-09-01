@@ -57,11 +57,11 @@ namespace BookApp.Data.Migrations
 
             modelBuilder.Entity("BookApp.Data.Book", b =>
                 {
-                    b.Property<int>("id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("integer");
 
-                    NpgsqlPropertyBuilderExtensions.UseSerialColumn(b.Property<int>("id"));
+                    NpgsqlPropertyBuilderExtensions.UseSerialColumn(b.Property<int>("Id"));
 
                     b.Property<int>("AuthorId")
                         .HasColumnType("integer");
@@ -85,11 +85,23 @@ namespace BookApp.Data.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.HasKey("id");
+                    b.HasKey("Id");
 
                     b.HasIndex("AuthorId");
 
                     b.ToTable("Books");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            AuthorId = 1,
+                            ISBN = "123-456-789",
+                            Language = "English",
+                            PublicationYear = new DateTime(2010, 1, 1, 0, 0, 15, 0, DateTimeKind.Utc),
+                            ShortDescription = "A very sad book like the name implies",
+                            Title = "Grave of fireflies"
+                        });
                 });
 
             modelBuilder.Entity("BookApp.Data.Book", b =>

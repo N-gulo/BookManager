@@ -24,7 +24,19 @@ namespace BookApp.Data
                         AuthorId = 1,
                         FullName = "William",
                         Country = "england",
-                        Age = 60,
+                        Age = 60
+                    }
+            );
+            modelBuilder.Entity<Book>().HasData(
+                    new Book
+                    {
+                        Id = 1,
+                        ISBN = "123-456-789",
+                        Title = "Grave of fireflies",
+                        ShortDescription = "A very sad book like the name implies",
+                        PublicationYear =   new DateTime(2010, 1, 1, 4, 0, 15).ToUniversalTime(),
+                        Language = "English",
+                        AuthorId = 1
                     }
             );
         }

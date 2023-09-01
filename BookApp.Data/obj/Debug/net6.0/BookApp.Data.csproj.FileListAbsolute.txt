@@ -1,0 +1,14 @@
+C:\Users\Sweeft User\source\repos\BookManager\BookApp.Data\bin\Debug\net6.0\BookApp.Data.deps.json
+C:\Users\Sweeft User\source\repos\BookManager\BookApp.Data\bin\Debug\net6.0\BookApp.Data.runtimeconfig.json
+C:\Users\Sweeft User\source\repos\BookManager\BookApp.Data\bin\Debug\net6.0\BookApp.Data.dll
+C:\Users\Sweeft User\source\repos\BookManager\BookApp.Data\bin\Debug\net6.0\BookApp.Data.pdb
+C:\Users\Sweeft User\source\repos\BookManager\BookApp.Data\obj\Debug\net6.0\BookApp.Data.csproj.AssemblyReference.cache
+C:\Users\Sweeft User\source\repos\BookManager\BookApp.Data\obj\Debug\net6.0\BookApp.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sweeft User\source\repos\BookManager\BookApp.Data\obj\Debug\net6.0\BookApp.Data.AssemblyInfoInputs.cache
+C:\Users\Sweeft User\source\repos\BookManager\BookApp.Data\obj\Debug\net6.0\BookApp.Data.AssemblyInfo.cs
+C:\Users\Sweeft User\source\repos\BookManager\BookApp.Data\obj\Debug\net6.0\BookApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\Sweeft User\source\repos\BookManager\BookApp.Data\obj\Debug\net6.0\BookApp.Data.dll
+C:\Users\Sweeft User\source\repos\BookManager\BookApp.Data\obj\Debug\net6.0\refint\BookApp.Data.dll
+C:\Users\Sweeft User\source\repos\BookManager\BookApp.Data\obj\Debug\net6.0\BookApp.Data.pdb
+C:\Users\Sweeft User\source\repos\BookManager\BookApp.Data\obj\Debug\net6.0\BookApp.Data.genruntimeconfig.cache
+C:\Users\Sweeft User\source\repos\BookManager\BookApp.Data\obj\Debug\net6.0\ref\BookApp.Data.dll
